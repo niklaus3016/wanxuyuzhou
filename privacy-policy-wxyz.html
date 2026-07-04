@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - 万序宇宙</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'PingFang SC',
+                         'Hiragino Sans GB', 'Microsoft YaHei', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            background: #020617;
+            line-height: 1.75;
+            color: #cbd5e1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: linear-gradient(180deg, #0b1120 0%, #0f172a 50%, #0b1120 100%);
+            padding: 56px 44px;
+            min-height: 100vh;
+            border-left: 1px solid rgba(255,255,255,0.05);
+            border-right: 1px solid rgba(255,255,255,0.05);
+        }
+
+        /* ========== 标题层级（与应用弹窗 style 一致） ========== */
+        h1 {
+            color: #fbbf24;            /* text-amber-400 */
+            text-align: center;
+            margin-bottom: 4px;
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #64748b;            /* text-slate-500 */
+            margin-bottom: 20px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .subtitle strong {
+            color: #94a3b8;            /* text-slate-400 */
+            font-weight: 600;
+        }
+        h2 {
+            color: #f1f5f9;            /* text-slate-100 */
+            margin-top: 40px;
+            margin-bottom: 12px;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.2px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255,255,255,0.10); /* border-b border-white/10 */
+        }
+        p {
+            margin-bottom: 12px;
+            text-align: justify;
+            color: #cbd5e1;            /* text-slate-300 */
+            font-size: 15px;
+            line-height: 1.85;
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+        ol, ul {
+            margin-left: 26px;
+            margin-bottom: 8px;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #cbd5e1;
+            font-size: 15px;
+            line-height: 1.8;
+            padding-left: 4px;
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ========== 强调色体系 ========== */
+        strong {
+            color: #f1f5f9;            /* text-slate-100 */
+            font-weight: 700;
+        }
+        strong.amber {
+            color: #fbbf24;            /* 应用内 strong 数据项的琥珀色 */
+            font-weight: 700;
+        }
+        .app-name {
+            color: #fbbf24;
+            font-weight: 700;
+        }
+        .email {
+            color: #a5b4fc;            /* text-indigo-300 */
+            font-weight: 500;
+        }
+
+        /* ========== 欢迎语高亮块 ========== */
+        .highlight {
+            background: linear-gradient(135deg,
+                rgba(245,158,11,0.10) 0%,
+                rgba(30,41,59,0.40) 50%,
+                rgba(99,102,241,0.10) 100%);
+            padding: 22px 26px;
+            border-left: 4px solid #f59e0b; /* amber-500 */
+            margin: 16px 0 20px 0;
+            border-radius: 16px;
+        }
+        .highlight p {
+            margin-bottom: 0;
+            font-size: 15px;
+            line-height: 1.85;
+            color: #cbd5e1;
+        }
+
+        /* ========== 联系我们框 ========== */
+        .contact {
+            background: rgba(30,41,59,0.60); /* bg-slate-800/60 */
+            padding: 18px 22px;
+            border-radius: 16px;
+            margin-top: 6px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .contact p {
+            margin-bottom: 6px;
+            font-size: 15px;
+            color: #cbd5e1;
+        }
+        .contact p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ========== 页脚 ========== */
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255,255,255,0.10);
+            text-align: center;
+            color: #64748b;
+        }
+        .footer p {
+            text-align: center;
+            margin-bottom: 6px;
+            color: #64748b;
+            font-size: 14px;
+        }
+        .footer p:nth-child(2) {
+            font-size: 12px;
+            margin-bottom: 12px;
+        }
+        .footer .copyright {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #475569; /* text-slate-600 */
+        }
+
+        /* ========== 响应式 ========== */
+        @media (max-width: 600px) {
+            .container {
+                padding: 36px 22px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 18px;
+                margin-top: 32px;
+            }
+            p, li, .highlight p, .contact p, .footer p {
+                font-size: 14px;
+            }
+            .highlight {
+                padding: 18px 20px;
+                border-radius: 12px;
+            }
+            .contact {
+                padding: 16px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 隐私政策</h1>
+        <p class="subtitle"><strong>生效日期</strong>：2026年07月04日</p>
+
+        <div class="highlight">
+            <p>欢迎使用「<span class="app-name">万序宇宙</span>」（以下简称"本应用"）。
+                本应用由 <strong>光年跃迁（温州）科技有限公司</strong>（以下简称"我们"）
+                开发并运营。我们深知个人信息对您的重要性，将严格遵守
+                《中华人民共和国个人信息保护法》等相关法律法规，保护您的个人信息安全。
+            </p>
+        </div>
+
+        <p>本隐私政策旨在说明我们如何收集、使用、存储和保护您在使用本应用过程中提供的个人信息，以及您对这些信息所享有的权利。请您在使用本应用前仔细阅读并充分理解本政策的全部内容，尤其是加粗的条款。如您对本政策有任何疑问、意见或建议，可通过本政策末尾提供的联系方式与我们联系。</p>
+
+        <h2>一、我们收集的信息</h2>
+        <p>在您使用本应用的过程中，我们会收集以下信息，以提供、维护和改进我们的服务：</p>
+        <ol>
+            <li><strong>学习与进度数据</strong>：
+                您在使用本应用过程中主动产生的所有
+                <strong class="amber">知识收藏记录、新人必修课通关进度、学习足迹记录、答题测试成绩、3D 模拟器偏好设置</strong>
+                等。这些数据是本应用的核心功能内容，用于为您提供连续的自学体验、成就展示与历史回顾服务。
+            </li>
+            <li><strong>设备信息</strong>：
+                为了保障应用的稳定运行和优化用户体验，我们会自动收集您的设备相关信息，包括但不限于
+                <strong class="amber">设备型号、操作系统版本、设备标识符（如 IMEI / Android ID）、IP 地址</strong>
+                等。
+            </li>
+        </ol>
+
+        <h2>二、我们如何使用收集的信息</h2>
+        <p>我们仅会在以下合法、正当、必要的范围内使用您的个人信息：</p>
+        <ol>
+            <li><strong>提供和改进服务</strong>：
+                使用您的学习与进度数据来实现百科检索、知识收藏、新人路线通关、3D 模拟可视化、答题测试、每日宇宙卡片等核心功能；
+                通过分析设备信息和使用数据，优化应用性能，修复已知问题，提升用户体验。
+            </li>
+            <li><strong>数据分析和统计</strong>：
+                在对您的个人信息进行匿名化或去标识化处理后，进行内部数据分析和统计，以了解用户群体的使用习惯和需求，
+                从而更好地规划和改进产品功能与科普内容。
+            </li>
+        </ol>
+
+        <h2>三、我们如何共享、转让和公开披露信息</h2>
+        <p>我们郑重承诺，严格保护您的个人信息，不会在以下情形之外向任何第三方共享、转让或公开披露您的信息：</p>
+        <ol>
+            <li><strong>法定情形</strong>：根据法律法规的规定、行政或司法机关的强制性要求，我们可能会向有关部门披露您的相关信息。</li>
+            <li><strong>获得明确同意</strong>：在获得您的明确书面同意后，我们才会向第三方共享您的个人信息。</li>
+            <li><strong>业务必要且合规</strong>：为了实现本政策第二条所述的目的，我们可能会与提供技术支持或其他必要服务的合作伙伴共享必要的信息，但我们会要求其严格遵守本政策及相关法律法规，并对您的信息承担保密义务。</li>
+        </ol>
+
+        <h2>四、我们如何存储和保护信息</h2>
+        <ol>
+            <li><strong>存储地点和期限</strong>：您的个人信息将存储于中华人民共和国境内的安全服务器上。我们会在实现本政策所述目的所必需的最短时间内保留您的信息，超出此期限后，我们将对您的信息进行删除或匿名化处理。</li>
+            <li><strong>安全措施</strong>：我们采用符合行业标准的技术手段和安全管理措施来保护您的个人信息，包括但不限于数据加密、访问控制、安全审计等，以防止信息泄露、丢失、篡改或被未经授权的访问。</li>
+        </ol>
+
+        <h2>五、您的权利</h2>
+        <p>根据相关法律法规，您对您的个人信息享有以下权利：</p>
+        <ol>
+            <li><strong>访问权</strong>：您可以随时在本应用的「收藏」「足迹」「答题」「设置」等栏目中查看和管理您的学习进度与历史记录。</li>
+            <li><strong>更正权</strong>：如您发现您的学习进度或记录存在错误，您可以在应用内进行修改和更正。</li>
+            <li><strong>删除权</strong>：您可以随时删除单条收藏、清除单条足迹记录，或通过设置页面中的清除功能一键删除答题测试记录，应用将立即处理相关数据。</li>
+            <li><strong>数据导出</strong>：本应用所有数据均以 LocalStorage 方式存储在您的设备本地，您可以通过设备备份或浏览器导出等方式获取您的数据。</li>
+        </ol>
+
+        <h2>六、未成年人保护</h2>
+        <p>我们非常重视对未成年人个人信息的保护。如您是未满 14 周岁的未成年人，在使用本应用前，应在监护人的指导下仔细阅读本政策，并征得监护人的同意。如我们发现自己在未事先获得监护人可验证同意的情况下收集了未成年人的个人信息，将立即删除相关数据。</p>
+
+        <h2>七、本政策的更新</h2>
+        <p>我们可能会根据法律法规的更新、业务的调整或技术的发展，适时对本隐私政策进行修订。修订后的政策将在本应用内显著位置公示，并在生效前通过合理方式通知您。如您继续使用本应用，即表示您同意接受修订后的政策。</p>
+
+        <h2>八、联系我们</h2>
+        <p>如您对本隐私政策有任何疑问、意见或建议，或需要行使您的相关权利，请通过以下方式与我们联系：</p>
+        <div class="contact">
+            <p><strong>电子邮箱</strong>：<span class="email">Jp112022@163.com</span></p>
+        </div>
+
+        <div class="footer">
+            <p>感谢您使用万序宇宙！</p>
+            <p>我们致力于为您提供安全、沉浸式的宇宙科普学习体验。</p>
+            <p class="copyright">© 2026 光年跃迁（温州）科技有限公司 版权所有</p>
+        </div>
+    </div>
+</body>
+</html>

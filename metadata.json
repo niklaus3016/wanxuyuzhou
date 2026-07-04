@@ -1,0 +1,6 @@
+{
+  "name": "万序宇宙",
+  "description": "一款零基础宇宙科普学习应用。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
