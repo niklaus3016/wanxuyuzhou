@@ -96,11 +96,19 @@ jobs:
         echo "============================="
 
     - name: Build Android Release APK
+      env:
+        KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
       run: |
         cd android
         echo "=== Building Release APK ==="
+        echo "  KEY_ALIAS env -> $KEY_ALIAS"
+        echo "  KEYSTORE_PASSWORD length -> ${#KEYSTORE_PASSWORD} chars"
+        echo "  keystore file path (relative to android/app/build.gradle -> ../my-release-key.keystore):"
+        ls -la my-release-key.keystore
         ./gradlew clean
-        ./gradlew assembleRelease --no-build-cache --no-daemon -Pandroid.injected.signing.store.file=my-release-key.keystore -Pandroid.injected.signing.store.password="${{ secrets.KEYSTORE_PASSWORD }}" -Pandroid.injected.signing.key.alias="${{ secrets.KEY_ALIAS }}" -Pandroid.injected.signing.key.password="${{ secrets.KEYSTORE_PASSWORD }}"
+        ./gradlew assembleRelease --no-build-cache --no-daemon
         ls -la app/build/outputs/apk/release/
 
     - name: Build Android Debug APK
