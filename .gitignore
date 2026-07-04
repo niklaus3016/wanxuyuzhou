@@ -77,3 +77,16 @@ lerna-debug.log*
 .env.local
 .env.*.local
 .env.*
+
+# ============================================================
+# Signing Keys / Keystore (NEVER commit)
+# ============================================================
+*.keystore
+*.jks
+*.p12
+*.pfx
+android/keystore.properties
+keystore.properties
+release-*.keystore
+release-*.jks
+my-release-key.*
