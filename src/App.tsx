@@ -1593,10 +1593,6 @@ export default function App() {
                       <p className="text-[11px] text-slate-400 mt-1">
                         本应用为宇宙科普自学工具。内置全量太空多维百科、动态太阳系公转轨道模拟器、流星雨交互粒子画板、宇宙大爆炸和日食月食动态动画，致力于为天文初学者和小白提供最无压力、趣味沉浸的太空学习体验。
                       </p>
-                      <div className="flex flex-wrap gap-x-4 gap-y-1 mt-3 text-[10px] text-slate-500 font-mono">
-                        <span>版本: 1.0</span>
-                        <span>包名: com.wanxuyuzhou.app</span>
-                      </div>
                     </div>
 
                     {/* Privacy Policy Trigger Button */}
